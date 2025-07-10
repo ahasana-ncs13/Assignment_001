@@ -1,5 +1,4 @@
 /* font styles */
-
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -14,6 +13,8 @@
     border: none;
     padding: 12px 36px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 
 }
 /* header section style */
@@ -46,4 +47,23 @@
     margin-left: 200px;
     margin-bottom: 165px;
 }
-
+/* action section style */
+.action-section{
+    display: flex;
+    margin: 116px 150px;
+    
+}
+.action-content{
+    margin-right:220px ;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.action-description{
+    margin-bottom: 23px;   
+}
+img{
+    border-radius: 25px;
+}

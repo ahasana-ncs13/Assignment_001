@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+    background-color: rgb(234, 234, 249);
+}
 /* shared style */
 .btn-style{
     background-color: #4E47FF;
@@ -15,6 +18,10 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
+    
+}
+.btn-style:hover{
+    background-color: rgb(169, 159, 15);
 
 }
 /* header section style */
@@ -55,12 +62,9 @@ main{
 /* action section style */
 .action-section{
     display: flex;
-    margin: 116px 150px;
-    
+    justify-content: space-between;
 }
-.action-content{
-    margin-right:220px ;
-}
+
 .action-title{
     font-weight: bold;
     font-size: 42px;
@@ -118,7 +122,7 @@ img{
 .user-contain{
     padding: 25px;
     border-radius: 15px;
-    background-color: rgba(242, 237, 237, 1);
+    background-color: #FFFFFF;
 }
 .user-contain-title{
      font-weight: bold;
@@ -136,7 +140,7 @@ img{
     margin-right: 115px;
  }
  form input {
-    background-color: rgb(238, 236, 242);
+    background-color: #FFFFFF;
     border: none;
     display: block;
     margin-bottom: 45px;
@@ -151,7 +155,7 @@ img{
  }
  textarea{
     border: none;
-    background-color: rgb(238, 236, 242);
+    background-color:#FFFFFF;
     display: block;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -165,6 +169,7 @@ img{
  }
  /* footer section */
  footer{
+    background-color: #FFFFFF;
     text-align: center;
     padding: 105px 455px;
  }

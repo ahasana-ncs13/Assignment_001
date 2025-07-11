@@ -155,11 +155,32 @@ img{
     display: block;
     margin-bottom: 40px;
     border-radius: 10px;
-    padding:20px 270px 20px 35px ;
+    padding:20px 270px 20px 30px ;
     font-size: 20px;
     font-weight: 500;
  }
  .form-btn{
-    padding: 20px 230px;
+    padding: 20px 220px;
     margin-bottom: 70px;
+ }
+ /* footer section */
+ footer{
+    text-align: center;
+    padding: 105px 455px;
+ }
+ .footer-title{
+    font-size: 100px;
+    line-height: 5px;
+ }
+ .footer-contain ul{
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .footer-contain li{
+    list-style: none;
+ }
+ .footer-contain a{
+    text-decoration: none;
+    color:black;
  }

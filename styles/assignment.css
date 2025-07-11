@@ -47,6 +47,11 @@
     margin-left: 200px;
     margin-bottom: 165px;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* action section style */
 .action-section{
     display: flex;
@@ -69,31 +74,92 @@ img{
 }
 /* Productive Users Section style */
 .Productive-Users-Section{
-    margin: 50px 150px;
+    padding: 50px 145px;
     background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 20px;
-    padding: 50px 100px;
+    border-radius: 25px;
+    margin-top: 125px;
+    text-align: center;
 }
 .Productive-Users-contains{
     display: flex;
+    justify-content: space-between;
     
 }
 .Productive-Users-contain{
-    line-height: 2px;
-    
+    line-height: 2px; 
 }
 .Productive-Users-title{
     font-size: 38px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 .productive-title{
     font-size: 80px;
     font-weight: bold;
-    color:#4E47FF;
-    margin-right: 150px;
-    
+    color:#4E47FF;   
 }
 .productive-sub-title{
     font-size: 20px;
 }
+/* users feedback section style */
+.users-Feedback{
+    margin-top: 135px;
+    margin-bottom: 135px;
+}
+.Users-Feedback-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.users-contain{
+    display: flex;
+    gap: 20px;
+}
+.user-contain{
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(242, 237, 237, 1);
+}
+.user-contain-title{
+     font-weight: bold;
+     font-size: 25px;
+}
+
+ /* Let’s Get In Touch Section style */
+ .Lets-Get-In-Touch{
+    display: flex;
+    margin-top: 95px;
+ }
+ .Lets-Get-In-Touch-title{
+    font-size: 100px;
+    font-weight: bold;
+    margin-right: 115px;
+ }
+ form input {
+    background-color: rgb(238, 236, 242);
+    border: none;
+    display: block;
+    margin-bottom: 45px;
+    padding:20px 270px 20px 35px ;
+    border-radius: 10px;
+    font-size: 20px;
+ }
+ label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ textarea{
+    border: none;
+    background-color: rgb(238, 236, 242);
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    padding:20px 270px 20px 35px ;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .form-btn{
+    padding: 20px 230px;
+    margin-bottom: 70px;
+ }
